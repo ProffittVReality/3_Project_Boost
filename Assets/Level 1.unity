@@ -443,6 +443,24 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4510facb5d7393248b2b2a97a2e18403, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &611076645 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1893171194164868, guid: 6be1551a66d1f3c459bb85363df146f6,
+    type: 2}
+  m_PrefabInternal: {fileID: 79515983}
+--- !u!114 &611076646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 611076645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 782083f8ae54bad4ebb1269a453e9b5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementVector: {x: 0, y: 10, z: 0}
+  period: 10
 --- !u!1001 &812869769
 Prefab:
   m_ObjectHideFlags: 0
@@ -632,6 +650,11 @@ Prefab:
     - target: {fileID: 4160161160413020, guid: eb99b9a62f64c8a41b8ce49f6ce16e72, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114152682278382422, guid: eb99b9a62f64c8a41b8ce49f6ce16e72,
+        type: 2}
+      propertyPath: thrustPower
+      value: 600
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb99b9a62f64c8a41b8ce49f6ce16e72, type: 2}
